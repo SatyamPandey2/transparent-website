@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap");
+*{
+    padding:0px;
+    margin:0px;
+    /* opacity: .9; */
+}
+body{
+    background: url(London\ image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Bilbo Swash Caps', cursive;
+    
+    
+}
+.container {
+    /* border: 12px solid black; */
+    color: white;
+    position: absolute;
+    top: 27%;
+    font-family: 'Bilbo Swash Caps', cursive;
+    left: 36%;
+}
+.container h1{
+    font-size:40px;
+    border-bottom: 5px solid purple;
+    margin-bottom:21px;
+    padding:13px 0;
+    display:inline-block;
+}
+.container h1:hover{
+    color:purple;
+    background-color:rgb(129, 93, 129);
+}
+.box{
+    width:100%;
+    /* border :2px solid purple; */
+    /* float:left; */
+    text-align: center;
+    border-bottom:2px solid purple;
+
+    display: block;
+}
+.box i {
+    width: 0px;
+    /* padding: 18px 0px; */
+    /* text-align: center; */
+}
+.box input{
+    background:none;
+    
+        width: 75%;
+        outline: none;
+        /* border: 2px ; */
+        color: rgb(247, 238, 238);
+        margin: 12px 29px;
+        font-size: 23px;
+    
+}
+
+.btn{
+    cursor:pointer;
+    outline:none;
+    /* width:25%; */
+    margin:18px 0;
+    padding:6px;
+    border-radius:10px;
+    border:2px solid purple;
+    font-size:18px;
+    background: none;
+    color:white;
+    padding:10px 21px;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background: white;
+    color:purple;
+    opacity: .5;
+}
